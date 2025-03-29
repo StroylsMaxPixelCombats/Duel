@@ -1,7 +1,6 @@
 // Imports:
 import { Players, Inventory, Spawns, Game, GameMode, Properties, LeaderBoard, Ui, Timers, TeamsBalancer, Damage, BreackGraph, NewGame, NewGameVote } from 'pixel_combats/room';
 import { DisplayValueHeader } from 'pixel_combats/basic';
-import * as DuelBuild from './DuelBuild.js';
 import * as DuelTeams from './DuelTeams.js';
 
 // Constants:
