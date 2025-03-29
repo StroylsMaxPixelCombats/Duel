@@ -15,14 +15,14 @@ export const BlueTeam_BUILDBLOCKSSET = BuildBlocksSet.Blue;
 export const BlueTeam_COLOR = new Color(0, 0, 1, 0);
 export const RedTeam_COLOR = new Color(1, 0, 0, 0);
 
-// Team building, red:
+// Create team, red:
 export function CreateRedTeam() {
  Teams.Add(RedTeam_NAME, RedTeamDisplay_NAME, RedTeam_COLOR);
  Teams.Spawns.SpawnPointsGroups.Add(RedTeam_SPAWNPOINTSGROUP);
  Teams.Build.BlocksSet.Value = RedTeam_BUILDBLOCKSSET;
 }
 
-// Team building, blue:
+// Create team, blue:
 export function CreateBlueTeam() {
  Teams.Add(BlueTeam_NAME, BlueTeamDisplay_NAME, BlueTeam_COLOR);
  Teams.Spawns.SpawnPointsGroups.Add(BlueTeam_SPAWNPOINTSGROUP);
