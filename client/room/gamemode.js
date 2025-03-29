@@ -41,9 +41,7 @@ Ui.GetContext().MainTimerId.Value = MainTimer.Id;
 
 // Creating, standard commands:
 const BlueTeam = Teams.CreateBlueTeam();
-const RefTeam = Teams.CreateRedTeam();
-CreateBuildSpawnBlueTeam();
-CreateBuildSpawnRedTeam();
+const RedTeam = Teams.CreateRedTeam();
 
 // Creating, a complete leaderboard:
 LeaderBoard.PlayerLeaderBoardValues = [
