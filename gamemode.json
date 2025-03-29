@@ -1,6 +1,6 @@
 {
-  "Name": "TDM",
-  "Description": "Duel: ",
+  "Name": "<b><color=Orange>Ｄᴜｅᴜ</a> <i><color=Red>ᴮʸ: ƬＮƬ ㄒｅ尺s</a></i></b>",
+  "Description": "<b><color=Orange>DUEL:</a></b> <i>Сражайтесь 1 на 1 или с друзьями в режиме дуэли. Выбирайте оружие, которым будете отбиваться от команды врага, победит сильнейшая команда!</i>",
   "StartClientVersion": 573,
   "MapFilter": {
     "IsBlank": false,
@@ -19,12 +19,12 @@
     "Bool": [
       {
         "Name": "MapRotation",
-        "DisplayName": "GmParams/MapRotation",
+        "DisplayName": "<b>Голосование карты</b>",
         "Default": true,
         "Order": 1
       },
       {
-        "Name": "OnlyKnives",
+        "Name": "",
         "DisplayName": "GmParams/OnlyKnives",
         "Order": 2
       },
